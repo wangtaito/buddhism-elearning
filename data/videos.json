@@ -1,0 +1,41 @@
+{
+  "shortVideos": [
+    {
+      "id": "13wGut-2y4g",
+      "title": "佛教冥想入門指南",
+      "description": "學習基礎的佛教冥想技巧，幫助您找到內心的平靜。",
+      "category": "冥想"
+    },
+    {
+      "id": "-FH5b-gXXmk",
+      "title": "正念減壓練習",
+      "description": "10分鐘正念練習，幫助緩解日常壓力。",
+      "category": "正念"
+    },
+    {
+      "id": "g2Pnt8NP_vQ",
+      "title": "艺美画廊私人订制",
+      "description": "张先生的父亲已经离开八年了，寄来照片想让我帮他父亲雕刻玻璃画，这幅画雕刻20天左右的时间，希望他能够满意，一幅肖像让爱触手可及",
+      "category": "心理"
+    },
+    {
+      "id": "QR2HC-IfUhM",
+      "title": "慈悲心修習指導",
+      "description": "學習如何培養慈悲心，增進與他人的連結。",
+      "category": "佛法"
+    },
+    {
+      "id": "Ks-_Mh1QhMc",
+      "title": "禪修體驗分享",
+      "description": "資深修行者分享禪修心得與經驗。",
+      "category": "冥想"
+    },
+    {
+      "id": "wZxP3ozsqXk",
+      "title": "心靈成長之路",
+      "description": "探討如何通過佛法實現個人成長與突破。",
+      "category": "心理"
+    }
+  ],
+  "categories": ["全部", "冥想", "正念", "心理", "佛法"]
+} 

@@ -1,0 +1,37 @@
+{
+  "liveCourses": [
+    {
+      "id": "1",
+      "title": "禪修入門",
+      "description": "適合初學者的禪修基礎課程",
+      "startTime": "2024-03-20T10:00:00",
+      "duration": 60,
+      "instructor": "明德法師",
+      "maxParticipants": 100,
+      "currentParticipants": 45,
+      "streamUrl": "https://www.youtube.com/embed/JzRM_zm6IFo"
+    },
+    {
+      "id": "2",
+      "title": "佛法開示",
+      "description": "每週佛法開示與問答",
+      "startTime": "2024-03-21T15:00:00",
+      "duration": 90,
+      "instructor": "慧光法師",
+      "maxParticipants": 200,
+      "currentParticipants": 120,
+      "streamUrl": "https://www.youtube.com/embed/t9veYycMFjk"
+    },
+    {
+      "id": "3",
+      "title": "心靈成長工作坊",
+      "description": "探討生命意義與價值的深度對話",
+      "startTime": "2024-03-22T19:30:00",
+      "duration": 120,
+      "instructor": "覺悟法師",
+      "maxParticipants": 150,
+      "currentParticipants": 80,
+      "streamUrl": "https://www.youtube.com/embed/QR2HC-IfUhM"
+    }
+  ]
+} 

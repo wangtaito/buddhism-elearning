@@ -1,0 +1,269 @@
+{
+  "courses": [
+    {
+      "title": "佛學基礎入門",
+      "description": "本課程為初學者提供佛教基本概念和修行方法的介紹，幫助您理解佛教的核心思想和實踐方式。",
+      "imageUrl": "https://picsum.photos/800/600?random=1",
+      "duration": "12小時",
+      "students": 328,
+      "instructor": "明德法師",
+      "level": "入門",
+      "category": "免費",
+      "syllabus": [
+        "佛教歷史與發展",
+        "基礎佛教概念",
+        "佛教修行方法",
+        "日常生活中的佛法實踐",
+        "佛教禮儀與規範"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：佛教基礎概念",
+          "description": "介紹佛教的基本教義和核心概念",
+          "duration": "45分鐘",
+          "videoUrl": "https://www.youtube.com/embed/JzRM_zm6IFo",
+          "isCompleted": true
+        },
+        {
+          "title": "第二講：佛教歷史發展",
+          "description": "探討佛教在不同時期和地區的傳播與演變",
+          "duration": "50分鐘",
+          "videoUrl": "https://www.youtube.com/embed/t9veYycMFjk",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "正念減壓課程",
+      "description": "結合佛教禪修與現代心理學，學習如何通過正念練習來緩解壓力，提升生活品質。",
+      "imageUrl": "https://picsum.photos/800/600?random=2",
+      "duration": "8小時",
+      "students": 456,
+      "instructor": "張心理博士",
+      "level": "進階",
+      "category": "訂閱",
+      "syllabus": [
+        "正念與壓力管理",
+        "呼吸覺察練習",
+        "身體掃描冥想",
+        "情緒覺察與調節",
+        "正念生活實踐"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：正念與壓力管理",
+          "description": "介紹正念與壓力管理的概念和方法",
+          "duration": "45分鐘",
+          "videoUrl": "https://www.youtube.com/embed/81uNccSBFK0",
+          "isCompleted": true
+        },
+        {
+          "title": "第二講：呼吸覺察練習",
+          "description": "學習如何通過呼吸覺察來緩解壓力",
+          "duration": "50分鐘",
+          "videoUrl": "https://www.youtube.com/embed/kf0El3Ei2VY",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "高階禪修研修班",
+      "description": "深入探討禪修技巧和心法，適合有基礎禪修經驗的學員進階學習。包含一對一指導和密集禪修營。",
+      "imageUrl": "https://picsum.photos/800/600?random=6",
+      "duration": "24小時",
+      "students": 86,
+      "instructor": "廣德法師",
+      "level": "高級",
+      "category": "收費",
+      "syllabus": [
+        "高階禪修理論",
+        "密集禪修實踐",
+        "一對一指導",
+        "禪修營體驗",
+        "修行經驗分享"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：高階禪修概論",
+          "description": "深入探討禪修的進階理論和方法",
+          "duration": "60分鐘",
+          "videoUrl": "https://www.youtube.com/embed/QR2HC-IfUhM",
+          "isCompleted": false
+        },
+        {
+          "title": "第二講：密集禪修指導",
+          "description": "詳細講解密集禪修的要點和注意事項",
+          "duration": "90分鐘",
+          "videoUrl": "https://www.youtube.com/embed/Ks-_Mh1QhMc",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "慈善關懷實務",
+      "description": "學習如何運用佛法智慧投入慈善工作，從事社會服務，實踐菩薩道精神。",
+      "imageUrl": "https://picsum.photos/800/600?random=3",
+      "duration": "16小時",
+      "students": 245,
+      "instructor": "慈悲法師",
+      "level": "入門",
+      "category": "公益",
+      "syllabus": [
+        "慈善工作基礎",
+        "溝通與關懷技巧",
+        "團隊合作方法",
+        "服務項目規劃",
+        "成果評估與改進"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：慈善工作導�",
+          "description": "介紹慈善工作的意義和基本概念",
+          "duration": "45分鐘",
+          "videoUrl": "https://www.youtube.com/embed/wZxP3ozsqXk",
+          "isCompleted": false
+        },
+        {
+          "title": "第二講：關懷服�技巧",
+          "description": "學習如何有效關懷和服務他人",
+          "duration": "50分鐘",
+          "videoUrl": "https://www.youtube.com/embed/XqG3CfzEn8Y",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "生命關懷與臨終助念",
+      "description": "培訓臨終關懷志工，學習如何陪伴與安慰臨終者，為生命最後一程提供支持。",
+      "imageUrl": "https://picsum.photos/800/600?random=4",
+      "duration": "20小時",
+      "students": 168,
+      "instructor": "觀音法師",
+      "level": "進階",
+      "category": "公益",
+      "syllabus": [
+        "生死教育概論",
+        "臨終關懷實務",
+        "助念技巧指導",
+        "家屬溝通輔導",
+        "心理調適方法"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：生死教育基礎",
+          "description": "理解生死教育的重要性和基本概念",
+          "duration": "60分鐘",
+          "videoUrl": "https://www.youtube.com/embed/t9veYycMFjk",
+          "isCompleted": false
+        },
+        {
+          "title": "第二講：臨終關懷技巧",
+          "description": "學習如何陪伴和關懷臨終者",
+          "duration": "60分鐘",
+          "videoUrl": "https://www.youtube.com/embed/JzRM_zm6IFo",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "佛教藝術與建築",
+      "description": "深入探討佛教藝術的歷史發展、符號意義和建築特色，培養專業的佛教藝術鑑賞能力。",
+      "imageUrl": "https://picsum.photos/800/600?random=5",
+      "duration": "30小時",
+      "students": 92,
+      "instructor": "法藏教授",
+      "level": "專業",
+      "category": "收費",
+      "syllabus": [
+        "佛教藝術史",
+        "佛像造型研究",
+        "寺院建築特色",
+        "佛教符號學",
+        "藝術保護修復"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：佛教藝術概論",
+          "description": "介紹佛教藝術的發展歷史和特色",
+          "duration": "90分鐘",
+          "videoUrl": "https://www.youtube.com/embed/81uNccSBFK0",
+          "isCompleted": false
+        },
+        {
+          "title": "第二講：佛像研究",
+          "description": "深入解析佛像的造型和象徵意義",
+          "duration": "90分鐘",
+          "videoUrl": "https://www.youtube.com/embed/kf0El3Ei2VY",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "title": "幸福學學幸福：解密拖延的新趨勢(上)",
+      "description": "探討拖延現象及其心理學背景，由心理學專家和法師共同主持，幫助您理解拖延的根源。",
+      "imageUrl": "https://picsum.photos/800/600?random=22",
+      "duration": "1小時",
+      "students": 215,
+      "instructor": "張老師",
+      "level": "入門",
+      "category": "免費",
+      "syllabus": [
+        "拖延的定義與成因",
+        "心理學對拖延的解釋",
+        "克服拖延的策略",
+        "實際案例分析",
+        "互動討論"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：拖延的定義與成因",
+          "description": "介紹拖延的概念及其心理學背景。",
+          "duration": "30分鐘",
+          "videoUrl": "https://www.youtube.com/embed/XCj_dLvEf4U",
+          "isCompleted": true
+        },
+        {
+          "title": "第二講：克服拖延的策略",
+          "description": "探討有效克服拖延的方法和技巧。",
+          "duration": "30分鐘",
+          "videoUrl": "https://www.youtube.com/embed/XCj_dLvEf4U",
+          "isCompleted": false
+        }
+      ]
+    },
+
+    {
+      "title": "梵文經典研修",
+      "description": "系統學習梵文語法和經典閱讀，培養直接閱讀原典的能力，深入理解佛法精髓。",
+      "imageUrl": "https://picsum.photos/800/600?random=7",
+      "duration": "48小時",
+      "students": 34,
+      "instructor": "智慧教授",
+      "level": "高級",
+      "category": "收費",
+      "syllabus": [
+        "梵文基礎語法",
+        "經典閱讀方法",
+        "文獻翻譯技巧",
+        "經典義理研究",
+        "研究方法指導"
+      ],
+      "chapters": [
+        {
+          "title": "第一講：梵文入門",
+          "description": "學習梵文的基本語法和發音",
+          "duration": "120分鐘",
+          "videoUrl": "https://www.youtube.com/embed/QR2HC-IfUhM",
+          "isCompleted": false
+        },
+        {
+          "title": "第二講：經典導讀",
+          "description": "開始閱讀簡單的梵文經典",
+          "duration": "120分鐘",
+          "videoUrl": "https://www.youtube.com/embed/Ks-_Mh1QhMc",
+          "isCompleted": false
+        }
+      ]
+    }
+  ]
+} 
