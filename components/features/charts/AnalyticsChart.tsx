@@ -9,13 +9,6 @@ interface DataItem {
   [key: string]: any;
 }
 
-/**
- * 数据分析图表组件
- *
- * @param props 组件属性
- * @param props.data 数据项数组
- * @returns 返回渲染后的数据分析图表组件
- */
 export function AnalyticsChart({ data }: { data: DataItem[] }) {
   const [isMounted, setIsMounted] = useState(false);
 

@@ -18,7 +18,7 @@ export function ChartBar() {
   return (
     <Bar 
       dataKey="students"
-      radius={[...chartDefaults.bar.radius]}
+      radius={[...chartDefaults.bar.radius] as [number, number, number, number]}
       fill={chartDefaults.barColor}
       maxBarSize={chartDefaults.bar.maxBarSize}
     />

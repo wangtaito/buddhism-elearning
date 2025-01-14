@@ -51,13 +51,13 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         {/* 側邊欄 */}
         <aside
           className={cn(
-            'fixed lg:sticky top-0 inset-y-0 left-0 z-50 bg-white shadow-lg transform transition-all duration-300 h-screen',
+            'fixed inset-y-0 top-0 left-0 z-50 h-screen bg-white shadow-lg transition-all duration-300 transform lg:sticky',
             isCollapsed ? 'w-20' : 'w-64',
             isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
           )}
         >
           <div className="flex flex-col h-full">
-            <div className="p-4 flex justify-between items-center">
+            <div className="flex justify-between items-center p-4">
               <span className={cn(
                 "font-semibold transition-all duration-300",
                 isCollapsed ? "hidden" : "block"
@@ -66,12 +66,12 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               </span>
               <button
                 onClick={toggleCollapse}
-                className="hidden lg:block p-1 rounded-md hover:bg-gray-100"
+                className="hidden p-1 rounded-md lg:block hover:bg-gray-100"
               >
                 {isCollapsed ? (
-                  <ChevronRight className="h-5 w-5" />
+                  <ChevronRight className="w-5 h-5" />
                 ) : (
-                  <ChevronLeft className="h-5 w-5" />
+                  <ChevronLeft className="w-5 h-5" />
                 )}
               </button>
             </div>
@@ -87,8 +87,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                       )}
                     >
                       <item.icon className={cn(
-                        "h-5 w-5",
-                        isCollapsed ? "text-gray-700" : "text-gray-500 mr-3"
+                        "w-5 h-5",
+                        isCollapsed ? "text-gray-700" : "mr-3 text-gray-500"
                       )} />
                       <span className={cn(
                         "transition-all duration-300",
@@ -114,7 +114,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
 
         {/* 主要內容區域 */}
         <main className={cn(
-          "flex-1 transition-all duration-300 px-4 md:px-6 py-4",
+          "flex-1 px-4 py-4 transition-all duration-300 md:px-6",
           isCollapsed ? "lg:pl-24" : "lg:pl-68"
         )}>
           {children}
