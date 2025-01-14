@@ -1,41 +1,179 @@
 {
-  "shortVideos": [
-    {
-      "id": "13wGut-2y4g",
-      "title": "佛教冥想入門指南",
-      "description": "學習基礎的佛教冥想技巧，幫助您找到內心的平靜。",
-      "category": "冥想"
-    },
-    {
-      "id": "-FH5b-gXXmk",
-      "title": "正念減壓練習",
-      "description": "10分鐘正念練習，幫助緩解日常壓力。",
-      "category": "正念"
-    },
-    {
-      "id": "g2Pnt8NP_vQ",
-      "title": "艺美画廊私人订制",
-      "description": "张先生的父亲已经离开八年了，寄来照片想让我帮他父亲雕刻玻璃画，这幅画雕刻20天左右的时间，希望他能够满意，一幅肖像让爱触手可及",
-      "category": "心理"
-    },
-    {
-      "id": "QR2HC-IfUhM",
-      "title": "慈悲心修習指導",
-      "description": "學習如何培養慈悲心，增進與他人的連結。",
-      "category": "佛法"
-    },
-    {
-      "id": "Ks-_Mh1QhMc",
-      "title": "禪修體驗分享",
-      "description": "資深修行者分享禪修心得與經驗。",
-      "category": "冥想"
-    },
-    {
-      "id": "wZxP3ozsqXk",
-      "title": "心靈成長之路",
-      "description": "探討如何通過佛法實現個人成長與突破。",
-      "category": "心理"
-    }
+  "categories": [
+    "全部",
+    "入門基礎",
+    "修行實踐",
+    "經典開示",
+    "生活佛法"
   ],
-  "categories": ["全部", "冥想", "正念", "心理", "佛法"]
+  "videos": [
+    {
+      "id": "1",
+      "title": "如何開始學習佛法",
+      "description": "為初學者介紹佛法入門的基本概念",
+      "url": "https://www.youtube.com/watch?v=XRxJLfFwzOM",
+      "thumbnail": "https://i.ytimg.com/vi/XRxJLfFwzOM/maxresdefault.jpg",
+      "duration": "10:30",
+      "views": 1500,
+      "likes": 230,
+      "createdAt": "2024-01-15",
+      "category": "入門基礎"
+    },
+    {
+      "id": "2",
+      "title": "每日禪修指導",
+      "description": "簡單實用的禪修方法教學",
+      "url": "https://www.youtube.com/watch?v=13wGut-2y4g",
+      "thumbnail": "https://i.ytimg.com/vi/13wGut-2y4g/maxresdefault.jpg",
+      "duration": "15:45",
+      "views": 2800,
+      "likes": 450,
+      "createdAt": "2024-01-16",
+      "category": "修行實踐"
+    },
+    {
+      "id": "3",
+      "title": "心經講解",
+      "description": "詳細解說心經的深層含義",
+      "url": "https://www.youtube.com/watch?v=-FH5b-gXXmk",
+      "thumbnail": "https://i.ytimg.com/vi/-FH5b-gXXmk/maxresdefault.jpg",
+      "duration": "20:15",
+      "views": 3200,
+      "likes": 520,
+      "createdAt": "2024-01-17",
+      "category": "經典開示"
+    },
+    {
+      "id": "4",
+      "title": "生活中的佛法智慧",
+      "description": "如何將佛法應用在日常生活中",
+      "url": "https://www.youtube.com/watch?v=g2Pnt8NP_vQ",
+      "thumbnail": "https://i.ytimg.com/vi/g2Pnt8NP_vQ/maxresdefault.jpg",
+      "duration": "12:20",
+      "views": 1800,
+      "likes": 280,
+      "createdAt": "2024-01-18",
+      "category": "生活佛法"
+    },
+    {
+      "id": "5",
+      "title": "佛教基礎概念解析",
+      "description": "深入淺出講解佛教的核心概念",
+      "url": "https://www.youtube.com/watch?v=QR2HC-IfUhM",
+      "thumbnail": "https://i.ytimg.com/vi/QR2HC-IfUhM/maxresdefault.jpg",
+      "duration": "18:30",
+      "views": 2100,
+      "likes": 340,
+      "createdAt": "2024-01-19",
+      "category": "入門基礎"
+    },
+    {
+      "id": "6",
+      "title": "正念呼吸法",
+      "description": "學習基礎的正念呼吸技巧",
+      "url": "https://www.youtube.com/watch?v=Ks-_Mh1QhMc",
+      "thumbnail": "https://i.ytimg.com/vi/Ks-_Mh1QhMc/maxresdefault.jpg",
+      "duration": "08:45",
+      "views": 4200,
+      "likes": 680,
+      "createdAt": "2024-01-20",
+      "category": "修行實踐"
+    },
+    {
+      "id": "7",
+      "title": "金剛經精要",
+      "description": "金剛經核心教義講解",
+      "url": "https://www.youtube.com/watch?v=wZxP3ozsqXk",
+      "thumbnail": "https://i.ytimg.com/vi/wZxP3ozsqXk/maxresdefault.jpg",
+      "duration": "25:15",
+      "views": 2900,
+      "likes": 470,
+      "createdAt": "2024-01-21",
+      "category": "經典開示"
+    },
+    {
+      "id": "8",
+      "title": "佛法與情緒管理",
+      "description": "運用佛法智慧處理情���問題",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "duration": "16:40",
+      "views": 3500,
+      "likes": 560,
+      "createdAt": "2024-01-22",
+      "category": "生活佛法"
+    },
+    {
+      "id": "9",
+      "title": "佛教節日介紹",
+      "description": "了解重要佛教節日的意義",
+      "url": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "thumbnail": "https://i.ytimg.com/vi/M7lc1UVf-VE/maxresdefault.jpg",
+      "duration": "14:20",
+      "views": 1900,
+      "likes": 310,
+      "createdAt": "2024-01-23",
+      "category": "入門基礎"
+    },
+    {
+      "id": "10",
+      "title": "行禪指導",
+      "description": "學習行禪的基本方法",
+      "url": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "thumbnail": "https://i.ytimg.com/vi/9bZkp7q19f0/maxresdefault.jpg",
+      "duration": "11:50",
+      "views": 2600,
+      "likes": 420,
+      "createdAt": "2024-01-24",
+      "category": "修行實踐"
+    },
+    {
+      "id": "11",
+      "title": "楞嚴經導讀",
+      "description": "楞嚴經重要章節解析",
+      "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+      "thumbnail": "https://i.ytimg.com/vi/JGwWNGJdvx8/maxresdefault.jpg",
+      "duration": "22:30",
+      "views": 2400,
+      "likes": 390,
+      "createdAt": "2024-01-25",
+      "category": "經典開示"
+    },
+    {
+      "id": "12",
+      "title": "佛法與人際關係",
+      "description": "如何運用佛法改善人際關係",
+      "url": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "thumbnail": "https://i.ytimg.com/vi/kJQP7kiw5Fk/maxresdefault.jpg",
+      "duration": "19:15",
+      "views": 3100,
+      "likes": 500,
+      "createdAt": "2024-01-26",
+      "category": "生活佛法"
+    },
+    {
+      "id": "13",
+      "title": "佛教的慈悲觀",
+      "description": "探討佛教中慈悲的真諦",
+      "url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0",
+      "thumbnail": "https://i.ytimg.com/vi/pRpeEdMmmQ0/maxresdefault.jpg",
+      "duration": "17:40",
+      "views": 2800,
+      "likes": 450,
+      "createdAt": "2024-01-27",
+      "category": "入門基礎"
+    },
+    {
+      "id": "14",
+      "title": "打坐姿勢指導",
+      "description": "正確的打坐姿勢詳解",
+      "url": "https://www.youtube.com/watch?v=y6120QOlsfU",
+      "thumbnail": "https://i.ytimg.com/vi/y6120QOlsfU/maxresdefault.jpg",
+      "duration": "13:25",
+      "views": 3400,
+      "likes": 550,
+      "createdAt": "2024-01-28",
+      "category": "修行實踐"
+    }
+  ]
 } 

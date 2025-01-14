@@ -1,6 +1,6 @@
 'use client';
 
-import { Bell, LogOut, User, Clock, Users } from 'lucide-react';
+import { Bell, User, Clock, Users } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -12,8 +12,6 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { useRouter } from 'next/navigation';
-import Cookies from 'js-cookie';
-import { useEffect, useState } from 'react';
 
 interface HeaderProps {
   isSidebarOpen: boolean;
@@ -22,56 +20,6 @@ interface HeaderProps {
 
 export default function Header({ isSidebarOpen, toggleSidebar }: HeaderProps) {
   const router = useRouter();
-  const [loginTime, setLoginTime] = useState<string>('');
-  const [username, setUsername] = useState<string>('');
-  const isAdmin = username === 'admin';
-
-  useEffect(() => {
-    // 立即讀取並設置用戶信息
-    const initUserInfo = () => {
-      const storedUsername = Cookies.get('username');
-      const storedLoginTime = Cookies.get('loginTime');
-      const isLoggedIn = Cookies.get('isLoggedIn');
-      
-      if (isLoggedIn && storedUsername) {
-        setUsername(storedUsername);
-      }
-      
-      if (isLoggedIn && storedLoginTime) {
-        try {
-          const loginDate = new Date(storedLoginTime);
-          if (!isNaN(loginDate.getTime())) {
-            setLoginTime(loginDate.toLocaleString('zh-TW', {
-              year: 'numeric',
-              month: '2-digit',
-              day: '2-digit',
-              hour: '2-digit',
-              minute: '2-digit',
-              hour12: false
-            }));
-          }
-        } catch (error) {
-          console.error('解析登入時間失敗:', error);
-          setLoginTime('未知');
-        }
-      }
-    };
-
-    initUserInfo();
-
-    // 監聽 cookie 變化
-    const checkCookies = setInterval(initUserInfo, 1000);
-
-    return () => clearInterval(checkCookies);
-  }, []);
-
-  const handleLogout = () => {
-    Cookies.remove('isLoggedIn');
-    Cookies.remove('loginTime');
-    Cookies.remove('username');
-    router.push('/login');
-    router.refresh();
-  };
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
@@ -96,29 +44,6 @@ export default function Header({ isSidebarOpen, toggleSidebar }: HeaderProps) {
 
         {/* 右側功能按鈕 */}
         <div className="flex gap-4 items-center">
-          {/* 用戶資訊 */}
-          <div className="hidden gap-2 items-center text-sm text-gray-600 md:flex">
-            <User className="w-4 h-4" />
-            <span>{username}</span>
-            <Clock className="ml-2 w-4 h-4" />
-            <span>{loginTime || '未知'}</span>
-          </div>
-
-          {/* 用戶資訊下拉菜單（移動端） */}
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
-                <User className="w-5 h-5" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-56">
-              <div className="px-2 py-1.5">
-                <p className="text-sm font-medium">用戶：{username}</p>
-                <p className="text-xs text-gray-500">登入時間：{loginTime || '未知'}</p>
-              </div>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
           {/* 通知下拉菜單 */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
@@ -148,32 +73,15 @@ export default function Header({ isSidebarOpen, toggleSidebar }: HeaderProps) {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          {/* 使用者管理按鈕 - 僅管理員可見 */}
-          {username && (
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => {
-                if (isAdmin) {
-                  router.push('/users');
-                } else {
-                  alert('請使用管理員帳號登入');
-                }
-              }}
-              className="relative"
-              title="使用者管理"
-            >
-              <Users className="w-5 h-5" />
-            </Button>
-          )}
-
-          {/* 登出按鈕 */}
-          <Button 
-            variant="ghost" 
+          {/* 使用者管理按鈕 */}
+          <Button
+            variant="ghost"
             size="icon"
-            onClick={handleLogout}
+            onClick={() => router.push('/users')}
+            className="relative"
+            title="使用者管理"
           >
-            <LogOut className="w-5 h-5" />
+            <Users className="w-5 h-5" />
           </Button>
         </div>
       </div>
